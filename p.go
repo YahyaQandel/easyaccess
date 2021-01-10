@@ -1,11 +1,11 @@
-package prnt
+package easyaccess
 import (
 	"fmt"
 )
 
-type anything interface {
+type anyType interface {
 }
 
-func Ln(x anything) {
+func Ln(x anyType) {
 	fmt.Println(x)
 }
